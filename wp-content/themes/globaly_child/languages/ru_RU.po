@@ -1,0 +1,256 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Globalre Child Theme\n"
+"POT-Creation-Date: 2019-09-08 16:41+0300\n"
+"PO-Revision-Date: 2019-09-08 18:32+0300\n"
+"Last-Translator: \n"
+"Language-Team: nsur <surgovan@gmail.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;lang::_e;lang::__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/dogs.php:82 includes/dogs.php:92
+msgid "Pugs"
+msgstr "Мопсы"
+
+#: includes/dogs.php:83
+msgid "Pug"
+msgstr "Мопс"
+
+#: includes/dogs.php:84
+msgid "Add Pug"
+msgstr "Добавить Мопса"
+
+#: includes/dogs.php:85
+msgid "Add new Pug"
+msgstr "Добавить нового Мопса"
+
+#: includes/dogs.php:86
+msgid "Edit Pug"
+msgstr "Редактировать Мопса"
+
+#: includes/dogs.php:87
+msgid "New Pug"
+msgstr "Новый Мопс"
+
+#: includes/dogs.php:88
+msgid "View Pug"
+msgstr "Просмотреть Мопса"
+
+#: includes/dogs.php:89
+msgid "Find Pug"
+msgstr "Найти Мопса"
+
+#: includes/dogs.php:90
+msgid "No Pugs found"
+msgstr "Мопсы не найдены"
+
+#: includes/dogs.php:91
+msgid "No Pugs at the trash"
+msgstr "В корзине нет Мопсов"
+
+#: includes/dogs.php:95 includes/dogs.php:105
+msgid "Chihuahuas"
+msgstr "Чихуахуа"
+
+#: includes/dogs.php:96
+msgid "Chihuahua"
+msgstr "Чихуахуа"
+
+#: includes/dogs.php:97
+msgid "Add Chihuahua"
+msgstr "Добавить Чихуахуа"
+
+#: includes/dogs.php:98
+msgid "Add new Chihuahua"
+msgstr "Добавить нового Чихуахуа"
+
+#: includes/dogs.php:99
+msgid "Edit Chihuahua"
+msgstr "Редактировать Чихуахуа"
+
+#: includes/dogs.php:100
+msgid "New Chihuahua"
+msgstr "Новый Чихуахуа"
+
+#: includes/dogs.php:101
+msgid "View Chihuahua"
+msgstr "Просмотреть Чихуахуа"
+
+#: includes/dogs.php:102
+msgid "Find Chihuahua"
+msgstr "Найти Чихуахуа"
+
+#: includes/dogs.php:103
+msgid "No Chihuahuas found"
+msgstr "Чихуахуа не найдены"
+
+#: includes/dogs.php:104
+msgid "No Chihuahuas at the trash"
+msgstr "В корзине нет Чихуахуа"
+
+#: includes/dogs.php:108 includes/dogs.php:118 includes/dogs.php:121
+#: includes/dogs.php:131
+msgid "Dogs Categories"
+msgstr "Категории собак"
+
+#: includes/dogs.php:109 includes/dogs.php:122
+msgid "Dog Category"
+msgstr "Категория собак"
+
+#: includes/dogs.php:110 includes/dogs.php:123
+msgid "Add Dog Category"
+msgstr "Добавить Категорию собак"
+
+#: includes/dogs.php:111 includes/dogs.php:124
+msgid "Add new Dog Category"
+msgstr "Добавить новую Категорию собак"
+
+#: includes/dogs.php:112 includes/dogs.php:125
+msgid "Edit Dog Category"
+msgstr "Редактировать Категорию собак"
+
+#: includes/dogs.php:113 includes/dogs.php:126
+msgid "New Dog Category"
+msgstr "Новая Категория собак"
+
+#: includes/dogs.php:114 includes/dogs.php:127
+msgid "View Dog Category"
+msgstr "Просмотреть Категорию собак"
+
+#: includes/dogs.php:115 includes/dogs.php:128
+msgid "Find Dog Category"
+msgstr "Найти Категорию собак"
+
+#: includes/dogs.php:116 includes/dogs.php:129
+msgid "No Dogs Categories found"
+msgstr "Категории собак не найдены"
+
+#: includes/dogs.php:117 includes/dogs.php:130
+msgid "No Dogs Categories at the trash"
+msgstr "В корзине нет Категорий собак"
+
+#: includes/dogs.php:134 includes/dogs.php:144 includes/dogs.php:147
+#: includes/dogs.php:157
+msgid "Litters"
+msgstr "Пометы"
+
+#: includes/dogs.php:135 includes/dogs.php:148
+msgid "Litter"
+msgstr "Помет"
+
+#: includes/dogs.php:136 includes/dogs.php:149
+msgid "Add Litter"
+msgstr "Добавить Помет"
+
+#: includes/dogs.php:137 includes/dogs.php:150
+msgid "Add new Litter"
+msgstr "Добавить новый Помет"
+
+#: includes/dogs.php:138 includes/dogs.php:151
+msgid "Edit Litter"
+msgstr "Редактировать Помет"
+
+#: includes/dogs.php:139 includes/dogs.php:152
+msgid "New Litter"
+msgstr "Новый Помет"
+
+#: includes/dogs.php:140 includes/dogs.php:153
+msgid "View Litter"
+msgstr "Просмотреть Помет"
+
+#: includes/dogs.php:141 includes/dogs.php:154
+msgid "Find Litter"
+msgstr "Найти Помет"
+
+#: includes/dogs.php:142 includes/dogs.php:155
+msgid "No Litters found"
+msgstr "Пометы не нейдены"
+
+#: includes/dogs.php:143 includes/dogs.php:156
+msgid "No Litters at the trash"
+msgstr "В корзине нет Пометов"
+
+#: includes/post_taxonomies.php:25 includes/post_taxonomies.php:35
+msgid "Articles"
+msgstr "Статьи"
+
+#: includes/post_taxonomies.php:26
+msgid "Article"
+msgstr "Статья"
+
+#: includes/post_taxonomies.php:27
+msgid "Search Articles"
+msgstr "Найти Статью"
+
+#: includes/post_taxonomies.php:28
+msgid "All Articles"
+msgstr "Все Статьи"
+
+#: includes/post_taxonomies.php:29
+msgid "Parent Article"
+msgstr "Родительская Статья"
+
+#: includes/post_taxonomies.php:30
+msgid "Parent Article:"
+msgstr "Родительская Статья:"
+
+#: includes/post_taxonomies.php:31
+msgid "Edit Article"
+msgstr "Редактировать Статью"
+
+#: includes/post_taxonomies.php:32
+msgid "Update Article"
+msgstr "Обновить Статью"
+
+#: includes/post_taxonomies.php:33
+msgid "Add New Article"
+msgstr "Добавить новую Статью"
+
+#: includes/post_taxonomies.php:34
+msgid "New Article Name"
+msgstr "Имя новой Статьи"
+
+#: includes/post_taxonomies.php:38 includes/post_taxonomies.php:39
+#: includes/post_taxonomies.php:48
+msgid "News"
+msgstr "Новости"
+
+#: includes/post_taxonomies.php:40
+msgid "Search News"
+msgstr "Искать Новости"
+
+#: includes/post_taxonomies.php:41
+msgid "All News"
+msgstr "Все Новости"
+
+#: includes/post_taxonomies.php:42
+msgid "Parent News"
+msgstr "Родительская Новость"
+
+#: includes/post_taxonomies.php:43
+msgid "Parent News:"
+msgstr "Родительская Новость:"
+
+#: includes/post_taxonomies.php:44
+msgid "Edit News"
+msgstr "Редактировать Новость"
+
+#: includes/post_taxonomies.php:45
+msgid "Update News"
+msgstr "Обновить Новость"
+
+#: includes/post_taxonomies.php:46
+msgid "Add New News"
+msgstr "Добавит новую Новость"
+
+#: includes/post_taxonomies.php:47
+msgid "New News Name"
+msgstr "Новое имя Новости"
