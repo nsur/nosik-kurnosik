@@ -1,2 +1,15 @@
-!.gitignore
-!wp-content/themes/*
+/wp-admin
+/wp-includes
+
+/wp-content/plugins/*
+/wp-content/themes/twenty*
+/wp-content/themes/index.php
+/wp-content/upgrade/*
+/wp-content/uploads/*
+/wp-content/index.php
+
+/*.php
+/*.html
+/*.txt
+.idea
+.htaccess
