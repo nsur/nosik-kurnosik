@@ -67,7 +67,7 @@ class Dogs_Func {
 				);
 				foreach ( $puppies as &$puppy ) {
 					$status = get_field( 'status', $puppy->ID );
-					if ( $status !== 'archived' ) {
+					if ( $status['value'] !== 'archived' ) {
 						$puppy->status   = $status;
 						$post_taxonomies = get_post_taxonomies( $puppy->ID );
 						foreach ( $post_taxonomies as $tax ) {
@@ -100,10 +100,10 @@ class Dogs_Func {
 
 	public static function sort_by_status( $a, $b ) {
 		foreach ( Dogs::STATUSES_ORDER as $order ) {
-			if ( $a->status == $order ) {
+			if ( $a->status['value'] == $order ) {
 				return 0;
 			}
-			if ( $b->status == $order ) {
+			if ( $b->status['value'] == $order ) {
 				return 1;
 			}
 		}

@@ -729,6 +729,12 @@ a .image-bordered:hover, .grid-gallery .grid-gallery-caption img:hover {
 .litter .puppies .item h2 {
 	margin: 7px 0 0;
 }
+.litter .puppies .item .status-reserved {
+	color: #710707;
+}
+.litter .puppies .item .status-sold {
+	color: red;
+}
 .litter .separator {
 	margin: 15px 0;
 }

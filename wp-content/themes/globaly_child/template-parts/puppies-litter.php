@@ -57,7 +57,7 @@ if( !empty( $litters ) ) :
 								$gallery = get_field( 'gallery', $puppy ); ?>
 								<div class="item">
 									<h2><?php echo get_the_title( $puppy->ID ) ?></h2>
-									<p><?php pll_e( $puppy->status, 'globaly' ) ?></p>
+									<p class="status-<?php echo $puppy->status['value'] ?>"><?php pll_e( $puppy->status['label'], 'globaly' ) ?></p>
 									<?php get_template_part_with_data( 'template-parts/gallery-dog', array(
 										'gallery' => $gallery,
 										'classes' => 'grid-2 grid-center'
