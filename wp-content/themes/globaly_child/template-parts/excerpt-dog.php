@@ -61,7 +61,7 @@ $utility = globaly_utility()->utility;
 								</div>
 							<?php else : ?>
 								<div>
-									<strong><?php pll_e( 'Born', 'globaly' ) ?>:</strong>
+									<strong><?php pll_e( 'Born date', 'globaly' ) ?>:</strong>
 									<span><?php echo $birthday_date ?></span>
 								</div>
 							<?php endif; ?>

@@ -13,7 +13,7 @@ get_template_part_with_data( 'template-parts/gallery-dog', array( 'gallery' => $
 	<?php endif; ?>
 	<?php if( $birthday = get_field( 'birthday' ) ) : ?>
 		<div>
-			<strong><?php pll_e( 'Born', 'globaly' ) ?>:</strong>
+			<strong><?php pll_e( 'Born date', 'globaly' ) ?>:</strong>
 			<span><?php echo date_format( date_create( $birthday ), 'd.m.Y' ) ?></span>
 		</div>
 	<?php endif; ?>
