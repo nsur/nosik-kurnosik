@@ -7,6 +7,7 @@ include_once 'includes/post_taxonomies.php';
 
 // Hooks
 add_action( 'after_setup_theme', 'theme_after_setup' );
+add_action( 'admin_head', 'admin_custom_css' );
 add_action( 'wp_enqueue_scripts', 'enqueue_theme_scripts' );
 add_filter( "theme_mod_single_author_block", 'update_single_author_block' );
 add_filter( 'globaly_get_dynamic_css_options', 'get_dynamic_css_options' );
@@ -44,6 +45,18 @@ add_shortcode( 'languages-switcher', 'get_language_switcher' );
 // Functions
 function theme_after_setup() {
 	load_theme_textdomain( 'globaly_child', get_stylesheet_directory() . '/languages' );
+}
+
+function admin_custom_css() {
+  echo '<style>
+    .fixed .column-categories,
+    .fixed .column-rel,
+    .fixed .column-response,
+    .fixed .column-role,
+    .fixed .column-tags {
+      width: auto;
+    }
+  </style>';
 }
 
 function enqueue_theme_scripts() {
