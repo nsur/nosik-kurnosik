@@ -53,13 +53,12 @@ if( !empty( $litters ) ) :
 					foreach ( $litter->puppies_for_sale as $sex => $puppies_list ) : ?>
 						<div class="items-title"><?php pll_e( ucfirst( $sex ), 'globaly' ) ?></div>
 						<div class="items-wrap">
-							<?php foreach ( $puppies_list as $puppy ) :
-								$gallery = get_field( 'gallery', $puppy ); ?>
+							<?php foreach ( $puppies_list as $puppy ) :?>
 								<div class="item">
-									<h2><?php echo get_the_title( $puppy->ID ) ?></h2>
-									<p class="status-<?php echo $puppy->status['value'] ?>"><?php pll_e( $puppy->status['label'], 'globaly' ) ?></p>
+									<h2><?php echo $puppy['name'] ?></h2>
+									<p class="status-<?php echo $puppy['status']['value'] ?>"><?php pll_e( $puppy['status']['label'], 'globaly' ) ?></p>
 									<?php get_template_part_with_data( 'template-parts/gallery-dog', array(
-										'gallery' => $gallery,
+										'gallery' => $puppy['gallery'],
 										'classes' => 'grid-2 grid-center'
 									) ); ?>
 								</div>
