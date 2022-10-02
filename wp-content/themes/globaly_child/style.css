@@ -718,6 +718,9 @@ a .image-bordered:hover, .grid-gallery .grid-gallery-caption img:hover {
 	line-height: 1.1em;
 	font-weight: 300;
 }
+.litter .puppies .status {
+	text-transform: capitalize;
+}
 .litter .puppies .items-wrap .gallery {
 	max-width: 640px;
 	margin: 0 auto;

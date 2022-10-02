@@ -49,9 +49,10 @@ class Dogs_Func {
 			$litter->mother           = get_field( 'mother', $litter );
 			$litter->puppies_for_sale = get_field( 'puppies_for_sale', $litter );
 			if ( $litter->puppies_for_sale ) {
-				foreach ( $litter->puppies_for_sale as &$sex ) {
-					$sex = array_filter( $sex, array( 'Dogs_Func', 'filter_by_status' ));
-					usort( $sex, array( 'Dogs_Func', 'sort_by_status' ) );
+				foreach ( $litter->puppies_for_sale as &$gender_group ) {
+					$gender_group = array_filter( $gender_group, array( 'Dogs_Func', 'filter_by_status' ));
+					usort( $gender_group, array( 'Dogs_Func', 'sort_by_name' ) );
+					usort( $gender_group, array( 'Dogs_Func', 'sort_by_status' ) );
 				}
 				$litter->puppies_for_sale = array_filter( $litter->puppies_for_sale );
 			}
@@ -64,14 +65,16 @@ class Dogs_Func {
 		return $item[ 'status' ][ 'value' ] !== 'archived';
 	}
 
+	public static function sort_by_name( $a, $b ) {
+		return strnatcmp($a['name'],$b['name']);
+	}
+
 	public static function sort_by_status( $a, $b ) {
-		foreach ( Dogs::STATUSES_ORDER as $order ) {
-			if ( $a->status['value'] == $order ) {
-				return 0;
-			}
-			if ( $b->status['value'] == $order ) {
-				return 1;
-			}
-		}
+		$a_status = array_search($a['status']['value'], Dogs::STATUSES_ORDER);
+		$b_status = array_search($b['status']['value'], Dogs::STATUSES_ORDER);
+		if ($a_status == $b_status) {
+        return 0;
+    }
+    return ($a_status < $b_status) ? -1 : 1;
 	}
 }

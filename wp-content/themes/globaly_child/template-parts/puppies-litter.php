@@ -56,7 +56,7 @@ if( !empty( $litters ) ) :
 							<?php foreach ( $puppies_list as $puppy ) :?>
 								<div class="item">
 									<h2><?php echo $puppy['name'] ?></h2>
-									<p class="status-<?php echo $puppy['status']['value'] ?>"><?php pll_e( $puppy['status']['label'], 'globaly' ) ?></p>
+									<p class="status status-<?php echo $puppy['status']['value'] ?>"><?php pll_e( $puppy['status']['value'], 'globaly' ) ?></p>
 									<?php get_template_part_with_data( 'template-parts/gallery-dog', array(
 										'gallery' => $puppy['gallery'],
 										'classes' => 'grid-2 grid-center'
