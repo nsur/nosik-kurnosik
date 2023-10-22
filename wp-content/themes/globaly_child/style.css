@@ -500,6 +500,11 @@ a .image-bordered:hover, .grid-gallery .grid-gallery-caption img:hover {
 .single .site-main article.no-thumb {
 	border-top: none;
 }
+@media (min-width: 992px) {
+  .single .site-main {
+    margin-bottom: 0;
+  }
+}
 #page {
 	min-height: 100%;
 	position: relative;
