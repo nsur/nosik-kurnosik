@@ -60,7 +60,7 @@ get_template_part_with_data( 'template-parts/gallery-dog', array( 'gallery' => $
 </div>
 <?php if( $family_tree_image = get_field( 'family_tree_image' ) ) : ?>
 	<div>
-		<img src="<?php echo $family_tree_image['url'] ?>" alt="<?php pll_e( 'Pedigree image', 'globaly' ) ?>" />
+		<img src="<?php echo $family_tree_image ?>" alt="<?php pll_e( 'Pedigree image', 'globaly' ) ?>" />
 	</div>
 <?php endif; ?>
 <div class="family-tree" id="pedigree-table">
