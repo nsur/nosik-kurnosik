@@ -12,6 +12,8 @@ class ThemeTranslation {
 		'Hair',
 		'Sire',
 		'Dam',
+		'Link to pedigree',
+		'Pedigree image',
 		'Hearts',
 		'Litera',
 		'Boys',

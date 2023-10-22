@@ -47,12 +47,22 @@ get_template_part_with_data( 'template-parts/gallery-dog', array( 'gallery' => $
 			<span><?php echo $mother_text ?></span>
 		</div>
 	<?php endif; ?>
+	<?php if( $family_tree_link = get_field( 'family_tree_link' ) ) : ?>
+		<strong>
+			<a href="<?php echo $family_tree_link ?>" target="_blank"><?php pll_e( 'Link to pedigree', 'globaly' ) ?>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a>
+		</strong>
+	<?php endif; ?>
 </div>
 <div class="description">
 	<?php if( $text = get_field( 'text' ) ) : ?>
 		<p><?php echo $text ?></p>
 	<?php endif; ?>
 </div>
+<?php if( $family_tree_image = get_field( 'family_tree_image' ) ) : ?>
+	<div>
+		<img src="<?php echo $family_tree_image['url'] ?>" alt="<?php pll_e( 'Pedigree image', 'globaly' ) ?>" />
+	</div>
+<?php endif; ?>
 <div class="family-tree" id="pedigree-table">
 	<?php
 	$family_tree = get_field( 'family_tree' );
