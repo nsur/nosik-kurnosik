@@ -523,7 +523,12 @@ a .image-bordered:hover, .grid-gallery .grid-gallery-caption img:hover {
 	margin: 0;
 }
 #content {
-	margin-bottom: 190px;
+	margin-bottom: 40px;
+}
+@media (min-width: 992px) {
+  #content {
+		margin-bottom: 80px;
+	}
 }
 #content .entry-content .card {
 	border: none;
