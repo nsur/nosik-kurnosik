@@ -49,7 +49,7 @@ get_template_part_with_data( 'template-parts/gallery-dog', array( 'gallery' => $
 	<?php endif; ?>
 	<?php if( $family_tree_link = get_field( 'family_tree_link' ) ) : ?>
 		<strong>
-			<a href="<?php echo $family_tree_link ?>" target="_blank"><?php pll_e( 'Link to pedigree', 'globaly' ) ?>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a>
+			<a href="<?php echo $family_tree_link ?>" target="_blank"><span style="text-decoration: underline"><?php pll_e( 'Link to pedigree', 'globaly' ) ?></span>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a>
 		</strong>
 	<?php endif; ?>
 </div>
