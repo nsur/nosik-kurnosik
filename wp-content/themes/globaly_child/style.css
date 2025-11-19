@@ -765,7 +765,7 @@ a .image-bordered:hover, .grid-gallery .grid-gallery-caption img:hover {
 
 
 /* Contact Us Page */
-.wpcf7 .form-inner {
+.wpcf7 .wpcf7-form {
 	max-width: 550px;
 	margin: 0 auto;
 }
@@ -784,12 +784,16 @@ a .image-bordered:hover, .grid-gallery .grid-gallery-caption img:hover {
 	border-bottom: 1px solid #f7e0c1;
 }
 .wpcf7 .form-inner .wpcf7-submit {
-	width: 100%;
+	flex: 1;
 	border: none;
 }
 .wpcf7 .form-inner .form-flex {
 	display: flex;
-	flex-direction: column;
+	align-items: center;
+}
+.wpcf7 .form-inner .form-flex .wpcf7-spinner {
+	min-width: 25px;
+	margin-right: 0;
 }
 .wpcf7 .form-inner .form-flex > p {
 	display: flex;
@@ -797,16 +801,8 @@ a .image-bordered:hover, .grid-gallery .grid-gallery-caption img:hover {
 	margin: 0 !important;
 }
 @media (min-width: 768px) {
-	.wpcf7 .form-inner .wpcf7-submit {
-		margin-top: 0;
-	}
-	.wpcf7 .form-inner .form-flex {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-	}
 	.wpcf7 .form-inner .form-flex > p {
 		flex-direction: row-reverse;
 	}
 }
+
